@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscrição</title>
+	<link rel="icon" href="bandeira.jpg" sizes="16x16">
+</head>
+<body>
+	<style type="text/css">
+		a:active{
+			text-decoration: underline; 
+			color:red;
+		}
+
+		a:hover{
+			color:green;
+		}
+
+		body{
+			background-color: green;
+		}
+
+		.dd{
+			text-decoration: underline;
+			font:italic, bold;
+		}
+
+		input:hover{
+		background-color: red;
+		border-color: black;
+	}
+	
+	input:focus{
+		background-color: blue;
+		border-color: yellow;
+		color: yellow;
+	}
+
+	.box{
+		border: 1px solid black;
+		border-radius: 5px;
+		max-width: 80%;
+		box-shadow: 3px 3px 3px white;
+		padding: 10px 30px 10px 30px;
+		align-items: center;
+	}
+
+	</style>
+	<meta charset="utf-8">
+	<a href="home.html">Voltar a pagina inicial</a>
+
+
+<div class="dd">Inscrição ao sub-18</div>
+<div class="box">
+		<form action="http://www.profasimone.com.br/cadastro.php" method="post">
+			<br>
+			 <label for="Nome">Nome</label><br>
+				<input id="Nome" type="text" name="nomeFuncionario" size="40" maxlength="50" placeholder="Digite seu nome..." required="">	
+	  		<br>
+	  		<br>
+	  		Idade:<br>
+	  			<input type="number" size="3" min="14" max="18" placeholder="Idade" name="Idade">
+	  		<br>
+	  		<br>
+            Posição em que você joga<br>
+            <input type="text" name="Posição">
+            <br><br>
+            Observações:<br>
+
+ 			<textarea rows="5" cols="50" name="Observações">
+ 				
+
+ 			</textarea> 
+
+ 			<br><br>
+
+ 			E-mail:<br>
+
+ 			<input type="email" name="E-mail"  size="50" placeholder="e-mail">
+
+ 			<br><br>
+
+<input type="submit" name="Enviar">	
+<br><br>
+</form>
+</div>
+</body>
+</html>
